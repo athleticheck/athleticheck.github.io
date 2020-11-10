@@ -2,9 +2,9 @@
 
 AthletiCheck is an application that allows users to:
 
-  *
-  *
-  *
+  * Effectively communicate between Athletic Trainers and Athletes
+  * Update personal treatments, rehab and notes for Athletes
+  * Easy access to all Athletes
 
 
 ## Project Idea:
