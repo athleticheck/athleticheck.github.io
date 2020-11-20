@@ -58,4 +58,4 @@ New Visit:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-New-Visit.png">
 
 Profile List:
-<img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile-List.png">
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile-List.png" border="5px solid #000">
