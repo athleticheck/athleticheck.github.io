@@ -24,6 +24,9 @@ The final database collection would also mirror the "NotesCollection" collection
 
 ## Links:
 Github Organization: https://github.com/athleticheck/athleticheck
+
 Digital Ocean: http://206.189.215.5/#/
+
 Milestone 1:https://github.com/athleticheck/athleticheck/projects/1
+
 Milestone 2: https://github.com/athleticheck/athleticheck/projects/2
