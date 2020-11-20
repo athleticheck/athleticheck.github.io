@@ -59,3 +59,11 @@ New Visit:
 
 Profile List:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile-List.png">
+
+## Developers
+The following team members have helped develop this site:
+
+  * Robert Lemon
+  * Andy Yu
+  * Anna Campainha
+  * Franz Adam
