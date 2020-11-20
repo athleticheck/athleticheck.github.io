@@ -5,7 +5,12 @@ AthletiCheck is an application that allows for:
   * Easy access to athlete profiles for both the athlete and the trainer
   * A single location for all of an athlete's annotated visits with trainers
   * Commenting on specific trainer visits
-  
+
+You can view the website, hosted by DigitalOcean, [here](http://206.189.215.5/#/).
+You can view the Github Organization page with all of the repos [here](https://github.com/athleticheck/athleticheck).
+You can view the Milestone 1 Project [here](https://github.com/athleticheck/athleticheck/projects/1).
+You can view the Milestone 2 Project [here](https://github.com/athleticheck/athleticheck/projects/2).
+
 ## Project Idea:
 Ever since the transition to electronic medical record systems for athletic staff at university sports programs, a tremendous amount of time has been spent on recording athletes’ data.  This is due to the fact that most record systems do not provide a user friendly interface and are not easily accessible by athletic trainers.  As a result, trainers often end up recording data during athlete visits and then copying the data into the EMS at the end of the day.  This process leads to wasted time and unnecessary repetition of information.  Previously conducted interviews and surveys with athletic trainers ranging from junior level programs to D1 sports across the country support this claim.  The collected data shows that trainers spend anywhere from 2-4 hours a day on documentation alone.  Unfortunately, the University of Hawaii's athletic program is not an exception.  Our group's solution to this problem is AthletiCheck, a website that creates an easy-to-use record system targeted at both the athletes and their trainers.  Each athlete will have a profile where their basic information will be stored.  On top of this, a comprehensive history of each visit with a trainer will be attached to their record.  The athletes will be able to view their own profile and comment on the recorded visits.  This functionality will be available to the trainers, as well as the ability to document new visits with athletes.  We hope that this site will reduce time spent on documentation, allow trainers to focus on actually treating the University of Hawaii's athletes. 
 
@@ -22,11 +27,23 @@ The third database collection would mirror the "NotesCollection" collection from
 
 The final database collection would also mirror the "NotesCollection" collection from the Digits homework.  Both trainers and athletes would be able to make comments on each recorded visit.  The comment would contain the actual comment that was posted, as well as an owner, timestamp, visit its associated with, and profile it is on.
 
-## Links:
-Github Organization: https://github.com/athleticheck/athleticheck
+## Page Mockups:
+Below are the current mockups of the site (note that it is not yet functional)
 
-Digital Ocean: http://206.189.215.5/#/
+Landing Page:
 
-Milestone 1:https://github.com/athleticheck/athleticheck/projects/1
+About Us:
 
-Milestone 2: https://github.com/athleticheck/athleticheck/projects/2
+Sign Up:
+
+Sign In:
+
+Athlete Profile:
+
+Admin Athlete Profile:
+
+Edit Profile:
+
+New Visit:
+
+Profile List:
