@@ -1,14 +1,13 @@
 ## AthletiCheck
 
-AthletiCheck is an application that allows users to:
+AthletiCheck is an application that allows for:
 
-  * Effectively communicate between Athletic Trainers and Athletes
-  * Update personal treatments, rehab and notes for Athletes
-  * Easy access to all Athletes
-
-
+  * Easy access to athlete profiles for both the athlete and the trainer
+  * A single location for all of an athlete's annotated visits with trainers
+  * Commenting on specific trainer visits
+  
 ## Project Idea:
-Ever since the transition to electronic medical record systems for athletic staff at university sports programs, a tremendous amount of time has been spent on recording athletes’ data due to the fact that most EMR systems do not provide a user friendly interface and are not easily accessible, so athletic trainer often record data and then copy it into the system at the end of the day. How do I aswsume that? Over the summer my colleague and me have concluded around 80 interviews with different athletic trainers in U.S. colleges, ranging from D1 to Junior level programs, and the collected data shows that ATs spend anywhere from 2-4 hours a day on documentation. This holds true for the ATs at UH as well. My proposed solution to this problem is an easily accessible web application for the UH athletics community where data can be entried and received easily on both ends to save time on documentation and make up more time to actually treat UH’s athletes.
+Ever since the transition to electronic medical record systems for athletic staff at university sports programs, a tremendous amount of time has been spent on recording athletes’ data.  This is due to the fact that most record systems do not provide a user friendly interface and are not easily accessible by athletic trainers.  As a result, trainers often end up recording data during athlete visits and then copying the data into the EMS at the end of the day.  This process leads to wasted time and unnecessary repetition of information.  Previously conducted interviews and surveys with athletic trainers ranging from junior level programs to D1 sports across the country support this claim.  The collected data shows that trainers spend anywhere from 2-4 hours a day on documentation alone.  Unfortunately, the University of Hawaii's athletic program is not an exception.  Our group's solution to this problem is AthletiCheck, a website that creates an easy-to-use record system targeted at both the athletes and their trainers.  Each athlete will have a profile where their basic information will be stored.  On top of this, a comprehensive history of each visit with a trainer will be attached to their record.  The athletes will be able to view their own profile and comment on the recorded visits.  This functionality will be available to the trainers, as well as the ability to document new visits with athletes.  We hope that this site will reduce time spent on documentation, allow trainers to focus on actually treating the University of Hawaii's athletes. 
 
 ## Databases:
 We would have 4 collections: users, ProfilesCollection, VisitsCollections, and CommentsCollections.
