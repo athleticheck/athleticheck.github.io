@@ -22,3 +22,8 @@ The third database collection would mirror the "NotesCollection" collection from
 
 The final database collection would also mirror the "NotesCollection" collection from the Digits homework.  Both trainers and athletes would be able to make comments on each recorded visit.  The comment would contain the actual comment that was posted, as well as an owner, timestamp, visit its associated with, and profile it is on.
 
+## Links:
+Github Organization: https://github.com/athleticheck/athleticheck
+Digital Ocean: http://206.189.215.5/#/
+Milestone 1:https://github.com/athleticheck/athleticheck/projects/1
+Milestone 2: https://github.com/athleticheck/athleticheck/projects/2
