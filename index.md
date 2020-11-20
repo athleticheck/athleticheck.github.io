@@ -7,8 +7,11 @@ AthletiCheck is an application that allows for:
   * Commenting on specific trainer visits
 
 You can view the website, hosted by DigitalOcean, [here](http://206.189.215.5/#/).
+
 You can view the Github Organization page with all of the repos [here](https://github.com/athleticheck/athleticheck).
+
 You can view the Milestone 1 Project [here](https://github.com/athleticheck/athleticheck/projects/1).
+
 You can view the Milestone 2 Project [here](https://github.com/athleticheck/athleticheck/projects/2).
 
 ## Project Idea:
@@ -31,19 +34,28 @@ The final database collection would also mirror the "NotesCollection" collection
 Below are the current mockups of the site (note that it is not yet functional)
 
 Landing Page:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Landing.png">
 
 About Us:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-About-Us.png">
 
 Sign Up:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Signup.png">
 
 Sign In:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Signin.png">
 
 Athlete Profile:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile.png">
 
 Admin Athlete Profile:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Admin-Profile.png">
 
 Edit Profile:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Edit-Profile.png">
 
 New Visit:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-New-Visit.png">
 
 Profile List:
+<img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile-List.png">
