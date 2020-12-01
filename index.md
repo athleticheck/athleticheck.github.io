@@ -146,19 +146,6 @@ You can verify that the code obeys our coding standards by running ESLint over t
 meteor npm run lint
 ```
 
-### Databases:
-We would have 4 collections: users, ProfilesCollection, VisitsCollections, and CommentsCollections.
-
-The first database collection would mirror the "users" collection from the Digits homework.  It would contain all the users that can log in (student athletes versus trainers).
-This collection would contain 3 fields for each entry: email, password, and role.
-
-The second database collection would mirror the "ContactsCollection" collection from the Digits homework.  Trainers would be able to create a contact for the athletes.
-Athletes will only be able to view the profile linked to their email address.  This collection would contain whatever generic information we want to record for each athlete.
-
-The third database collection would mirror the "NotesCollection" collection from the Digits homework. Trainers would be able to create a new visit associated with the athlete's profile whenever they meet with the athlete.  This collection would store the information about the visit, as well as the profile ID, what trainer made it, and when.
-
-The final database collection would also mirror the "NotesCollection" collection from the Digits homework.  Both trainers and athletes would be able to make comments on each recorded visit.  The comment would contain the actual comment that was posted, as well as an owner, timestamp, visit its associated with, and profile it is on.
-
 ### Collections
 
 The application implements a 3 Collections: Profiles, Visits, and Comments. 
