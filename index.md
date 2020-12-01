@@ -6,7 +6,7 @@ AthletiCheck is an application that allows for:
   * A single location for all of an athlete's annotated visits with trainers
   * Commenting on specific trainer visits
 
-You can view the website, hosted by DigitalOcean, [here](http://206.189.215.5/#/).
+You can view the website, hosted by DigitalOcean, [here](https://athleticheck.xyz/#/).
 
 You can view the Github Organization page with all of the repos [here](https://github.com/athleticheck/athleticheck).
 
