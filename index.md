@@ -6,6 +6,7 @@ AthletiCheck is an application that allows for:
   * A single location for all of an athlete's annotated visits with trainers
   * Commenting on specific trainer visits
 
+<b>The website is currently not up to date. Please refer to the screenshots. It will be up at 11:30 12/01/2020</b> 
 You can view the website, hosted by DigitalOcean, [here](https://athleticheck.xyz/#/).
 
 You can view the Github Organization page with all of the repos [here](https://github.com/athleticheck/athleticheck).
@@ -157,6 +158,74 @@ Athletes will only be able to view the profile linked to their email address.  T
 The third database collection would mirror the "NotesCollection" collection from the Digits homework. Trainers would be able to create a new visit associated with the athlete's profile whenever they meet with the athlete.  This collection would store the information about the visit, as well as the profile ID, what trainer made it, and when.
 
 The final database collection would also mirror the "NotesCollection" collection from the Digits homework.  Both trainers and athletes would be able to make comments on each recorded visit.  The comment would contain the actual comment that was posted, as well as an owner, timestamp, visit its associated with, and profile it is on.
+
+### Collections
+
+The application implements a 3 Collections: Profiles, Visits, and Comments. 
+
+Profiles contains fields for userId, firstName, lastName, sport, age, height, weight, graduation (date), and major
+
+The Profiles collection is defined in [imports/api/profile/Profiles.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/api/profile/Profiles.js).
+
+The Profiles collection is initialized in [imports/startup/server/Mongo.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/startup/server/Mongo.js).
+
+Visits contains fields for profileId, data, trainer, cleared, and description.
+
+The Visits collection is defined in [imports/api/visit/Visits.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/api/visit/Visits.js).
+
+The Visits collection is initialized in [imports/startup/server/Mongo.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/startup/server/Mongo.js).
+
+Comments contains fields for visitId, date (Of visit), author, and comment.
+
+The Comments collection is defined in [imports/api/comment/Comments.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/api/comment/Comments.js).
+
+The Comments collection is initialized in [imports/startup/server/Mongo.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/startup/server/Mongo.js).
+
+### CSS
+
+The application uses the [React implementation of Semantic UI](http://react.semantic-ui.com/).
+
+### Routing
+
+For display and navigation among its four pages, the application uses [React Router](https://reacttraining.com/react-router/).
+
+Routing is defined in [imports/ui/layouts/App.jsx](https://github.com/athleticheck/athleticheck/blob/master/app/imports/ui/layouts/App.jsx).
+
+
+### Authentication
+
+For authentication, the application uses the Meteor accounts package.
+
+When the application is run for the first time, a settings file (such as [config/settings.development.json](https://github.com/athleticheck/athleticheck/blob/master/config/settings.development.json)) should be passed to Meteor. That will lead to a default account being created through the code in [imports/startup/server/Accounts.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/startup/server/Accounts.js).
+
+The application allows users to register and create new accounts at any time.
+
+### Authorization
+
+Only logged in trainers (Application admin) can manipulate profile and visit documents. Users have read-only access to their own profile and none other.
+
+### Configuration
+
+The [config](https://github.com/athleticheck/athleticheck/blob/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/athleticheck/athleticheck/blob/master/config/settings.development.json).
+
+The [.gitignore](https://github.com/athleticheck/athleticheck/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+
+### Quality Assurance
+
+#### ESLint
+
+The application includes a [.eslintrc](https://github.com/athleticheck/athleticheck/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+[~/athleticheck/app]-> meteor npm run lint
+
+> meteor-application-template-react@ lint D:\GitHub\athleticheck\app
+> eslint --quiet --ext .jsx --ext .js ./imports
+```
+
+ESLint should run without generating any errors.
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 ## Developers
 The following team members have helped develop this site:
