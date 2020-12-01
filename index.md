@@ -1,4 +1,4 @@
-## AthletiCheck
+# AthletiCheck
 
 AthletiCheck is an application that allows for:
 
@@ -33,40 +33,40 @@ The final database collection would also mirror the "NotesCollection" collection
 ## User Guide:
 The following sections describe the major features of this application. Accompanying feature descriptions are current progress screenshots.
 
-# Landing Page:
+### Landing Page:
 <img class="ui medium right floated rounded image" src="/M1-Images/landing-1.png">
 <img class="ui medium right floated rounded image" src="/M1-Images/landing-2.png">
 The AthletiCheck landing page informs users of some key features of the application - interactive profiles, personalized records, etc. The landing page includes links to registering an account, signing in, and learning more about the team behind AthletiCheck.
 
-# About Us:
+### About Us:
 <img class="ui medium right floated rounded image" src="/M1-Images/about-us.png">
 Learn more about the team at the About Us page. Feel free to email any of our developers with any questions regarding AtheltiCheck, its uses, and any troubleshooting matters.
 
-# Sign Up:
+### Sign Up:
 <img class="ui medium right floated rounded image" src="/M1-Images/register.png">
 New athletes (users) can register an account with AthletiCheck.
 
-# Sign In:
+### Sign In:
 <img class="ui medium right floated rounded image" src="/M1-Images/login.png">
 Current athletes (users) can sign in to their profile to view their profiles.
 
-# Athlete Profile:
+### Athlete Profile:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile.png">
 Athletes can view their profiles, quick stats, and visit notes.
 
-# Admin Athlete Profile:
+### Admin Athlete Profile:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-Admin-Profile.png">
 Trainers can view athlete profiles, add notes, and make changes regarding any athelete information.
 
-# Edit Profile:
+### Edit Profile:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-Edit-Profile.png">
 Trainers can edit athlete profile stats to keep athletes up-to-date on their physical condition.
 
-# New Visit:
+### New Visit:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-New-Visit.png">
 Trainers can open a new visit note that details what the visit was for, any significant observations, and whether or not an athelte is cleared for performing.
 
-# Profile List:
+### Profile List:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile-List.png">
 Trainers can view all atheletes registered in the system. By clicking on an athelete's profile link, they can be directed to that respective athlete's profile.
 
