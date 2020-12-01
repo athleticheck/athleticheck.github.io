@@ -93,14 +93,26 @@ meteor npm run start
 
 => Started proxy.
 => Started MongoDB.
-I20180227-13:33:02.716(-10)? Creating the default user(s)
-I20180227-13:33:02.742(-10)?   Creating user admin@foo.com.
-I20180227-13:33:02.743(-10)?   Creating user john@foo.com.
-I20180227-13:33:02.743(-10)? Creating default data.
-I20180227-13:33:02.743(-10)?   Adding: Basket (john@foo.com)
-I20180227-13:33:02.743(-10)?   Adding: Bicycle (john@foo.com)
-I20180227-13:33:02.743(-10)?   Adding: Banana (admin@foo.com)
-I20180227-13:33:02.744(-10)?   Adding: Boogie Board (admin@foo.com)
+W20201130-22:33:32.482(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
+W20201130-22:33:32.540(-10)? (STDERR) While this implementation will work correctly, it is known to be
+W20201130-22:33:32.540(-10)? (STDERR) approximately three times slower than the native implementation.
+W20201130-22:33:32.541(-10)? (STDERR) In order to use the native implementation instead, run
+W20201130-22:33:32.541(-10)? (STDERR) 
+W20201130-22:33:32.542(-10)? (STDERR)   meteor npm install --save bcrypt
+W20201130-22:33:32.543(-10)? (STDERR) 
+W20201130-22:33:32.543(-10)? (STDERR) in the root directory of your application.
+I20201130-22:33:33.846(-10)? Creating the default user(s)
+I20201130-22:33:33.847(-10)?   Creating user admin@foo.com.
+I20201130-22:33:34.117(-10)?   Creating user john@foo.com.
+I20201130-22:33:34.351(-10)? Creating default data.
+I20201130-22:33:34.352(-10)?   Adding: Basket (john@foo.com)
+I20201130-22:33:34.372(-10)?   Adding: Bicycle (john@foo.com)
+I20201130-22:33:34.374(-10)?   Adding: Banana (admin@foo.com)
+I20201130-22:33:34.377(-10)?   Adding: Boogie Board (admin@foo.com)
+I20201130-22:33:34.381(-10)? profiles collection is empty!
+I20201130-22:33:34.382(-10)? Creating default profiles.
+I20201130-22:33:34.382(-10)?   Adding: defaultA
+I20201130-22:33:34.396(-10)?   Adding: defaultB
 => Started your app.
 
 => App running at: http://localhost:3000/
