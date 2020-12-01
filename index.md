@@ -34,16 +34,17 @@ The final database collection would also mirror the "NotesCollection" collection
 Below are the current mockups of the site (note that it is not yet functional)
 
 Landing Page:
-<img class="ui medium right floated rounded image" src="/M1-Images/M1-Landing.png">
+<img class="ui medium right floated rounded image" src="/M1-Images/landing-1.png">
+<img class="ui medium right floated rounded image" src="/M1-Images/landing-2.png">
 
 About Us:
-<img class="ui medium right floated rounded image" src="/M1-Images/M1-About-Us.png">
+<img class="ui medium right floated rounded image" src="/M1-Images/about-us.png">
 
 Sign Up:
-<img class="ui medium right floated rounded image" src="/M1-Images/M1-Signup.png">
+<img class="ui medium right floated rounded image" src="/M1-Images/register.png">
 
 Sign In:
-<img class="ui medium right floated rounded image" src="/M1-Images/M1-Signin.png">
+<img class="ui medium right floated rounded image" src="/M1-Images/login.png">
 
 Athlete Profile:
 <img class="ui medium right floated rounded image" src="/M1-Images/M1-Profile.png">
