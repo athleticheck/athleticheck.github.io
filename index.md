@@ -150,7 +150,7 @@ meteor npm run lint
 
 The application implements a 3 Collections: Profiles, Visits, and Comments. 
 
-Profiles contains fields for userId, firstName, lastName, sport, age, height, weight, graduation (date), and major
+Profiles contains fields for username, firstName, lastName, sport, age, height, weight, graduation (date), and major
 
 The Profiles collection is defined in [imports/api/profile/Profiles.js](https://github.com/athleticheck/athleticheck/blob/master/app/imports/api/profile/Profiles.js).
 
