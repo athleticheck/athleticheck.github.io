@@ -56,8 +56,16 @@ The following sections describe the major features of this application. Accompan
   * Trainers can open a new visit note that details what the visit was for, any significant observations, and whether or not an athelte is cleared for performing.
 
 ### Profile List:
-<img class="ui medium right floated rounded image" src="/M2-Images/profile-list.png">
-  * Trainers can view all atheletes registered in the system. By clicking on an athelete's profile link, they can be directed to that respective athlete's profile.
+<img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List.png">
+  * Trainers can view all athletes registered in the system via the profile list. 
+  * By default, the profile list displays profiles in groups of 25 profiles per page. This limit can be changed by developers.
+  <img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List-Toggle.png">
+  * To improve readability, ahletic trainers can toggle what information they want displayed on the profile list.
+    <img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List-Sort.png">
+  * The profile list can be sorted in either ascending or descending order by any of the column values in the table, by clicking on the arrow icon next to each column header.
+  <img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List-Search.png">
+  * Any athlete in the database can be searched for in the search bar which filters by any aspect of athlete data listed in their profile list entry.
+  * Clicking on the row of an athlete's entry in the profile list, takes athletic trainers to the corresponding athlete's profile.
 
 ## Developer Guide
 
@@ -70,6 +78,16 @@ Third, cd into the app/ directory of your local copy of the repo, and install th
 ```
 $ meteor npm install
 ```
+
+Next, install the plugin [React-Smart-Data-Table](https://www.npmjs.com/package/react-smart-data-table?activeTab=readme). Developed by [@joaocarmo](https://github.com/joaocarmo).
+
+To install, cd into the app/ directory of your local copy of the repo, and run the following:
+
+```
+$ npm install react-smart-data-table
+```
+
+Developers can learn more about React-Smart-Data-Table and it's full suite of customization options by referring to the [developer site] (https://www.npmjs.com/package/react-smart-data-table?activeTab=readme).
 
 ## Running the system
 
