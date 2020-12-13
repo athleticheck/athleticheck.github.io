@@ -58,6 +58,7 @@ The following sections describe the major features of this application. Accompan
 ### Profile List:
 <img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List.PNG">
   * Trainers can view all athletes registered in the system via the profile list. 
+  
   * By default, the profile list displays profiles in groups of 25 profiles per page. This limit can be changed by developers.
   <img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List-Toggle.PNG">
   * To improve readability, ahletic trainers can toggle what information they want displayed on the profile list.
@@ -65,6 +66,7 @@ The following sections describe the major features of this application. Accompan
   * The profile list can be sorted in either ascending or descending order by any of the column values in the table, by clicking on the arrow icon next to each column header.
   <img class="ui medium right floated rounded image" src="/M3-Images/M3-Profile-List-Search.PNG">
   * Any athlete in the database can be searched for in the search bar which filters by any aspect of athlete data listed in their profile list entry.
+  
   * Clicking on the row of an athlete's entry in the profile list, takes athletic trainers to the corresponding athlete's profile.
 
 ## Developer Guide
