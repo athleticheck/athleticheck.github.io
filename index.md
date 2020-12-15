@@ -89,7 +89,7 @@ To install, cd into the app/ directory of your local copy of the repo, and run t
 $ npm install react-smart-data-table
 ```
 
-Developers can learn more about React-Smart-Data-Table and it's full suite of customization options by referring to the [developer site] (https://www.npmjs.com/package/react-smart-data-table?activeTab=readme).
+Developers can learn more about React-Smart-Data-Table and it's full suite of customization options by referring to the [developer site](https://www.npmjs.com/package/react-smart-data-table?activeTab=readme).
 
 ## Running the system
 
