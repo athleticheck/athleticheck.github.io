@@ -85,7 +85,7 @@ Several different functionalitiy add-ons were requested. The most requested func
 <img class="ui medium right floated rounded image" src="/M3-Images/Feedback_3.png">
 This section was more of a reference for possible future improvements.
 
-Overall, the feedback was helpful and, although the test user count was very small (10 people), we could identify the most wanted trend and functionality, the Covid-19, screening and add it to our website. We could also copnclude that our design choice is well done and looks engaging for users. Any other wanted add-ons and comment for functionality shall serve as future reference and room for improvement.
+Overall, the feedback was helpful and, although the test user count was very small (10 people), we could identify the most wanted trend and functionality, the Covid-19, screening and add it to our website. We could also conclude that our design choice works well and engages the user. Any other wanted add-ons and comment for functionality shall serve as future reference and room for improvement.
 
 ## Developer Guide
 
