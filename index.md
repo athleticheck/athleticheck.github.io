@@ -153,9 +153,18 @@ in the root directory of your application.
 
 On some operating systems (particularly Windows), installing bcrypt is much more difficult than implied by the above message. Bcrypt is only used in Meteor for password checking, so the performance implications are negligible until your site has very high traffic. You can safely ignore this warning without any problems during initial stages of development.
 
+### Installing React Smart Data Table Plug In
+After running the application for the first time, install the React Smart Table Plug In. The documentation can be found [here](https://www.npmjs.com/package/react-smart-data-table?activeTab=readme) 
+
+
 ### Viewing the running app
 
 If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/athleticheck/athleticheck/blob/master/config/settings.development.json), or else register a new account.
+
+In the app directory of the project invoke the following command
+```
+npm install react-smart-data-table
+```
 
 ### ESLint
 
