@@ -69,6 +69,24 @@ The following sections describe the major features of this application. Accompan
   
   * Clicking on the row of an athlete's entry in the profile list, takes athletic trainers to the corresponding athlete's profile.
 
+## User Feedback
+
+After deploying the website and finishing up the backend configuration for all the essential features to work, we collected real user data of 8 athletes and 2 athletic trainers.
+We created an google form, sent it out to the users and this is the feedback we could collect.
+### Design:
+<img class="ui medium right floated rounded image" src="/M3-Images/Feedback_1.png">
+Overall, pretty much every user agreed with our design and could not give much thought for improvement. 
+
+### Functionalities:
+<img class="ui medium right floated rounded image" src="/M3-Images/Feedback_2.png">
+Several different functionalitiy add-ons were requested. The most requested functionality to include, a Covid-19 screening, was implemented and added to the website.
+
+### Other possible Improvements:
+<img class="ui medium right floated rounded image" src="/M3-Images/Feedback_3.png">
+This section was more of a reference for possible future improvements.
+
+Overall, the feedback was helpful and, although the test user count was very small (10 people), we could identify the most wanted trend and functionality, the Covid-19, screening and add it to our website. We could also copnclude that our design choice is well done and looks engaging for users. Any other wanted add-ons and comment for functionality shall serve as future reference and room for improvement.
+
 ## Developer Guide
 
 First, [install Meteor](https://www.meteor.com/install).
