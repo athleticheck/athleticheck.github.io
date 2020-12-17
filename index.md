@@ -156,15 +156,15 @@ On some operating systems (particularly Windows), installing bcrypt is much more
 ### Installing React Smart Data Table Plug In
 After running the application for the first time, install the React Smart Table Plug In. The documentation can be found [here](https://www.npmjs.com/package/react-smart-data-table?activeTab=readme) 
 
-
-### Viewing the running app
-
-If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/athleticheck/athleticheck/blob/master/config/settings.development.json), or else register a new account.
-
 In the app directory of the project invoke the following command
 ```
 npm install react-smart-data-table
 ```
+When it is finished it should successfully install with 0 vulnerabilities. This plug-in allows you to use the table used in the Athletic Trainers profile list of Athletes. 
+
+### Viewing the running app
+
+If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/athleticheck/athleticheck/blob/master/config/settings.development.json), or else register a new account.
 
 ### ESLint
 
